@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7" pages="4">
   <diagram name="Desconto" id="_d2cayw3rxY8vn-zWWvY">
     <mxGraphModel dx="2725" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -521,63 +521,77 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j2bvwfRVPHu4JvJFHbbC" name="MODELO TARIFA - GRAFENO">
-    <mxGraphModel dx="1874" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2141" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-2" target="ZGCHVMFO-MgxCsaP-ZNn-6">
+        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-2" target="ZGCHVMFO-MgxCsaP-ZNn-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="263" y="1096" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Dados Grafeno (Planilha Daniele)&lt;/b&gt;&lt;br&gt;Evento de Consulta, Cedente, Dt Pagamento, Tipo de Consumo, Valor Intrabank&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Dados Grafeno (Planilha Daniele)&lt;/b&gt;&lt;br&gt;Evento de Consulta, Cedente, Dt Pagamento, Tipo de Consumo, Valor Intrabank&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="136.5" y="980" width="253" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-6" target="n6MUuG5d1dolSd7LTPxb-2">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-6" target="n6MUuG5d1dolSd7LTPxb-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-6" value="Calcular Base de Cáculo &lt;br&gt;(Vl Intrabank + Impostos + Subsidio)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-6" value="&lt;b&gt;Calcular Base de Cáculo &lt;/b&gt;&lt;br&gt;(Vl Intrabank + Impostos + Subsidio)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="136.5" y="1099" width="253" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-8" target="ZGCHVMFO-MgxCsaP-ZNn-2">
+        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZGCHVMFO-MgxCsaP-ZNn-8" target="ZGCHVMFO-MgxCsaP-ZNn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-8" value="&lt;b&gt;MODELO TARIFA - GRAFENO&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZGCHVMFO-MgxCsaP-ZNn-8" value="&lt;b&gt;MODELO TARIFA - GRAFENO&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="133.25" y="850" width="259.5" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-1" value="&lt;b&gt;FIM&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-1" value="&lt;b&gt;FIM&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="142.69000000000017" y="1820" width="240" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n6MUuG5d1dolSd7LTPxb-2" target="n6MUuG5d1dolSd7LTPxb-3">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-2" target="n6MUuG5d1dolSd7LTPxb-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-2" value="&lt;b&gt;3% Para Gerente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-2" value="&lt;b&gt;3% Para Gerente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="181.1700000000002" y="1220" width="163.65" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6MUuG5d1dolSd7LTPxb-3" target="n6MUuG5d1dolSd7LTPxb-4">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-3" target="n6MUuG5d1dolSd7LTPxb-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-3" value="&lt;b&gt;2% para Superintendente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-3" value="&lt;b&gt;2% para Superintendente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="181.1700000000002" y="1340" width="163.65" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6MUuG5d1dolSd7LTPxb-4" target="n6MUuG5d1dolSd7LTPxb-5">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-4" target="n6MUuG5d1dolSd7LTPxb-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-4" value="&lt;b&gt;1% Para Diretor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-4" value="&lt;b&gt;1% Para Diretor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="177.99999999999955" y="1464" width="170.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="n6MUuG5d1dolSd7LTPxb-5" target="n6MUuG5d1dolSd7LTPxb-6">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-5" target="n6MUuG5d1dolSd7LTPxb-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-5" value="&lt;b&gt;Valor Comissão&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-5" value="&lt;b&gt;Valor Comissão&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="177.57" y="1580" width="170.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6MUuG5d1dolSd7LTPxb-6" target="n6MUuG5d1dolSd7LTPxb-1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-6" target="n6MUuG5d1dolSd7LTPxb-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6MUuG5d1dolSd7LTPxb-6" value="&lt;b&gt;Análise Piloto&lt;/b&gt;&lt;br&gt;(Graficos)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="n6MUuG5d1dolSd7LTPxb-6" value="&lt;b&gt;Análise Piloto&lt;/b&gt;&lt;br&gt;(Graficos)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="178" y="1700" width="170.25" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="UTbPBoOxPILGHREogEP7-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="348.25" y="1685" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UTbPBoOxPILGHREogEP7-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Mês a mês - Gerentes&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1710" width="136" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GyGV9MiNzVgmKBqTGrR0" name="MODELO TAC">
+    <mxGraphModel dx="1034" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
