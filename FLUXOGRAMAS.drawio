@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16" pages="4">
   <diagram name="DESCONTO" id="_d2cayw3rxY8vn-zWWvY">
-    <mxGraphModel dx="1499" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
         <mxCell id="yP4JoTnGkoKO8JnlrIDl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6R9e0S38YPJOB4MfhtHX-32" target="6R9e0S38YPJOB4MfhtHX-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6R9e0S38YPJOB4MfhtHX-32" value="&lt;b&gt;Calcular&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;b&gt;Lucro Líquido&lt;br&gt;&lt;/b&gt;Receita Total - Receita Tarifa" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6R9e0S38YPJOB4MfhtHX-32" value="&lt;b&gt;Calcular&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;b&gt;Lucro Líquido&lt;br&gt;&lt;/b&gt;(Receita Total - Receita Tarifa) - Custo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350.25" y="460" width="253" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yP4JoTnGkoKO8JnlrIDl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6R9e0S38YPJOB4MfhtHX-57" target="12A56TbVkGBOpqcJUSsV-4" edge="1">
@@ -73,9 +73,6 @@
           <mxGeometry x="358.52" y="780" width="236.5" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yP4JoTnGkoKO8JnlrIDl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="12A56TbVkGBOpqcJUSsV-4" target="6R9e0S38YPJOB4MfhtHX-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yP4JoTnGkoKO8JnlrIDl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WtkpYPYLF3NqtBBW18X0-1" target="6R9e0S38YPJOB4MfhtHX-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WtkpYPYLF3NqtBBW18X0-1" value="&lt;div&gt;&lt;b&gt;Operador Gerente&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 4%&lt;/div&gt;&lt;div&gt;Superintendente: 2%&lt;/div&gt;&lt;div&gt;Diretoria: 1%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operador Superintendente&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 0%&lt;/div&gt;&lt;div&gt;Superintendente: 2%&lt;/div&gt;&lt;div&gt;Diretoria: 1%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operador Diretoria&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 0%&lt;/div&gt;&lt;div&gt;Superintendente: 0%&lt;/div&gt;&lt;div&gt;Diretoria: 3%&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
@@ -117,11 +114,17 @@
         <mxCell id="GWBmuveaV4F98-f31__R-1" value="&lt;b&gt;Calcular&amp;nbsp;&lt;/b&gt;&lt;b&gt;Custo Final da Operação&lt;br&gt;&lt;/b&gt;(Cálculo CDI + 1) ^ (Prazos - 1)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="GWBmuveaV4F98-f31__R-10" vertex="1">
           <mxGeometry y="7" width="253" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="5muo1LRLoi3zBBRZN-n0-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6R9e0S38YPJOB4MfhtHX-57" target="WtkpYPYLF3NqtBBW18X0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="580" as="sourcePoint" />
+            <mxPoint x="350" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="k5cFWQFqlMl-SQ0jzQPr" name="CCB E NC">
-    <mxGraphModel dx="1314" dy="2105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,14 +299,14 @@
         <mxCell id="1yLYRMCjwKHXPaxbxBkk-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#003960;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="2250" y="421.5" width="40" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="fHx6PJb2jTc-RdSIErIB-1" value="Baseado em dias úteis entre parcelas." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="fHx6PJb2jTc-RdSIErIB-1" value="Baseado em dias úteis entre parcelas." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2290" y="327.5" width="180" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="j2bvwfRVPHu4JvJFHbbC" name="MODELO TARIFA - GRAFENO">
-    <mxGraphModel dx="1499" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1578" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,7 +341,7 @@
         <mxCell id="n6MUuG5d1dolSd7LTPxb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n6MUuG5d1dolSd7LTPxb-6" target="n6MUuG5d1dolSd7LTPxb-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MvIQtc3z3vw_uKLrfAOh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Coletar Dados Grafeno (Planilha Daniele)&lt;/b&gt;&lt;br&gt;Evento de Consulta, Cedente, Dt Pagamento, Tipo de Consumo, Valor Intrabank&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="MvIQtc3z3vw_uKLrfAOh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Coletar Dados Grafeno&amp;nbsp;&lt;/b&gt;&lt;br&gt;Evento de Consulta, Cedente, Dt Pagamento, Tipo de Consumo, Valor Intrabank&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="106.75" y="990" width="313" height="71" as="geometry" />
         </mxCell>
         <mxCell id="_gZwKmHWo06xMdmNgDKQ-1" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -369,15 +372,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GyGV9MiNzVgmKBqTGrR0" name="MODELO TAC">
-    <mxGraphModel dx="937" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b3X-d0d02zu4AqYY7wTL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="b3X-d0d02zu4AqYY7wTL-2" target="b3X-d0d02zu4AqYY7wTL-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="b3X-d0d02zu4AqYY7wTL-2" value="&lt;b&gt;Coletar Dados (QPROF)&lt;/b&gt;&lt;br&gt;(Data, Cedente, Vl Pago, Tarifas, TAC, VOP,&amp;nbsp; CEDENTE VE etc)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1640.63" y="1020" width="253" height="70" as="geometry" />
+        <mxCell id="b3X-d0d02zu4AqYY7wTL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2Vqz1_yWRR6-TzYjQW4c-1" target="b3X-d0d02zu4AqYY7wTL-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1767.13" y="1090" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="GTAbkoo4hNeyKNbhlxiM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="b3X-d0d02zu4AqYY7wTL-4" target="GTAbkoo4hNeyKNbhlxiM-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -401,25 +403,15 @@
         <mxCell id="u0wyd2aMkltcPQRyE0Qm-1" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;FIM&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#003960;" parent="1" vertex="1">
           <mxGeometry x="1646.3100000000002" y="1520" width="240" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="u0wyd2aMkltcPQRyE0Qm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u0wyd2aMkltcPQRyE0Qm-2" target="b3X-d0d02zu4AqYY7wTL-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="u0wyd2aMkltcPQRyE0Qm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u0wyd2aMkltcPQRyE0Qm-2" target="2Vqz1_yWRR6-TzYjQW4c-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1767.13" y="1020" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="u0wyd2aMkltcPQRyE0Qm-2" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;MODELO TAC&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#003960;" parent="1" vertex="1">
           <mxGeometry x="1646.5" y="890" width="240" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="b8he2PmaTx6aaaHb-Ye3-1" value="&lt;div&gt;tac - planilha do guilherme que vem do joao&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2710" y="920" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="b8he2PmaTx6aaaHb-Ye3-4" value="Quando DIRETOR for GERENTE da CONTA ele receberá uma comissão de 3%&lt;br&gt;&lt;br&gt;Quando SUPERINTENDETE for GERENTE da CONTA, ele receberá uma comissão de 2%&lt;br&gt;1%&lt;br&gt;&lt;br&gt;&lt;br&gt;DUPLICAR?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2700" y="1110" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="b8he2PmaTx6aaaHb-Ye3-6" value="&lt;div style=&quot;text-align: center;&quot;&gt;Quando for DIRETOR e SUPERINTENDETE (A mesma pessoa `{Reinaldo}, ele receberá sempre como DIRETOR (1%)&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2539" y="1250" width="520" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="9g_IKS7TEf0f4msheCSM-1" value="&lt;div&gt;&lt;div&gt;qprof vem errado quando NC e CCB&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2704" y="980" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GTAbkoo4hNeyKNbhlxiM-4" value="&lt;b&gt;Calcular Valor Comissão&lt;/b&gt;&lt;br&gt;Taxa TAC * Porcentagem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="GTAbkoo4hNeyKNbhlxiM-4" value="&lt;b&gt;Calcular Valor Comissão&lt;/b&gt;&lt;br&gt;TAC * Porcentagem" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1640.63" y="1270" width="252.37" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qUN82hTaxLqiEa455nko-1" value="&lt;div&gt;&lt;b&gt;Operador Gerente&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 4%&lt;/div&gt;&lt;div&gt;Superintendente: 2%&lt;/div&gt;&lt;div&gt;Diretoria: 1%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operador Superintendente&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 0%&lt;/div&gt;&lt;div&gt;Superintendente: 2%&lt;/div&gt;&lt;div&gt;Diretoria: 1%&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operador Diretoria&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Gerente: 0%&lt;/div&gt;&lt;div&gt;Superintendente: 0%&lt;/div&gt;&lt;div&gt;Diretoria: 3%&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;container=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1" collapsed="1">
@@ -432,6 +424,9 @@
             <mxPoint x="1894" y="1175" as="sourcePoint" />
             <mxPoint x="1820" y="1180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vqz1_yWRR6-TzYjQW4c-1" value="&lt;b&gt;Coletar Dados (QPROF)&lt;/b&gt;&lt;br&gt;(Data, Cedente, Vl Pago, Tarifas, TAC, VOP,&amp;nbsp; CEDENTE VE etc)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1619.82" y="1020" width="294" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
